@@ -106,7 +106,6 @@ class _MyAppState extends State<MyApp> {
               if (_receivedUri != null)
                 Padding(
                   padding: const EdgeInsets.all(8.0),
-                  // child: Text('Received URI: $_receivedUri'),
                   child: Column(
                     children: [
                       Text('Welcome $userName : $userUniqueName'),
